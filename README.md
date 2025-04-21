@@ -1,4 +1,4 @@
-# fema_data_pipeline_analysis
+# Fema_Data_Pipeline_Analysis
 A data pipeline that aggregates and processes detailed information  on public assistance funded projects from FEMA’s open data APIs
 
 # Extracting the Data 
