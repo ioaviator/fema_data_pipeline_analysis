@@ -1,6 +1,6 @@
 import requests
 
-from ETL.config import URL
+from include.ETL.config import URL
 
 
 def extract():

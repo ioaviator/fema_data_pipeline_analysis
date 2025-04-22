@@ -3,6 +3,9 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+.astro
+plugins
+tests
 # C extensions
 *.so
 fema_projects_raw.csv
