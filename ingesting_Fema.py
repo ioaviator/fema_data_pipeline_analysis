@@ -2,7 +2,7 @@ import pandas as pd
 import requests
 
 # FEMA API Endpoint
-url = "https://www.fema.gov/api/open/v1/"
+url = "https://www.fema.gov/api/open/v1/PublicAssistanceFundedProjectsDetails"
 params = {
     "$top": 1000  # pagination
 }
