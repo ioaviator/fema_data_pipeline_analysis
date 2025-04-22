@@ -1,0 +1,23 @@
+services:
+  db:
+    image: postgres:13
+    environment:
+      - POSTGRES_USER=fema
+      - POSTGRES_PASSWORD=fema
+      - POSTGRES_DB=fema
+    ports:
+      - 5432:5432
+    networks:
+      - default_net
+  pgadmin:
+    image: dpage/pgadmin4:9
+    environment:
+      PGADMIN_DEFAULT_EMAIL: admin@admin.com
+      PGADMIN_DEFAULT_PASSWORD: admin
+    ports:
+      - "8083:80"
+    networks:
+      - default_net
+
+networks:
+  default_net:
