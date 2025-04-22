@@ -8,7 +8,7 @@ plugins
 tests
 # C extensions
 *.so
-fema_projects_raw.csv
+#fema_projects_raw.csv
 # Distribution / packaging
 .Python
 build/
